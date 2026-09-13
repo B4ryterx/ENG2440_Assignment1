@@ -1,0 +1,36 @@
+# ── macOS ──
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ── Large raw dataset (do NOT commit — 3.2 GB) ──
+pneumonia-challenge-dataset-original_2018.zip.download/
+*.zip.download/
+pneumonia-challenge-dataset-original_2018.zip
+
+# ── Redundant archive of the extracted supporting files ──
+ENG2440_Assignment1_Supporting_Files.zip
+
+# ── DICOM / image data (kept out of version control) ──
+*.dcm
+*.png
+*.jpg
+*.jpeg
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# ── Jupyter / model artifacts ──
+*.pt
+*.pth
+*.h5
+*.ckpt
+*.pkl
+*.joblib
