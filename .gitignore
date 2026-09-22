@@ -12,6 +12,10 @@ pneumonia-challenge-dataset-original_2018.zip
 # ── Redundant archive of the extracted supporting files ──
 ENG2440_Assignment1_Supporting_Files.zip
 
+# ── Report (submitted separately via Moodle) and Excel duplicates ──
+*.docx
+*.xlsx
+
 # ── DICOM / image data (kept out of version control) ──
 *.dcm
 *.png
