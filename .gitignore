@@ -16,6 +16,9 @@ ENG2440_Assignment1_Supporting_Files.zip
 *.docx
 *.xlsx
 
+# ── Derived feature caches ──
+*.npz
+
 # ── DICOM / image data (kept out of version control) ──
 *.dcm
 *.png
