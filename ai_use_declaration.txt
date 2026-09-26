@@ -1,0 +1,31 @@
+AI USE DECLARATION
+ENG 2440 — Assignment 1: Pneumonia Classification Challenge
+
+Tool used
+---------
+Anthropic Claude (Claude Code / Opus). A conversational AI assistant.
+
+Purpose and how it was used
+---------------------------
+I used Claude as an assistant throughout the assignment for the following purposes:
+
+- debugging the PyTorch pipeline code across Tasks A-G: data loading
+  and label collapse, leakage-safe splits, DICOM preprocessing and augmentation,
+  the trivial and logistic baselines, adapting the pre-trained ResNet-18 (channel and
+  head changes, feature-extraction then fine-tuning, seed control), evaluation
+  (confusion matrix, ROC/PR, thresholds, calibration) and Grad-CAM / subgroup analysis.
+- Setting up and troubleshooting the HPC (Slurm/conda) environment used to train the CNN.
+- Drafting this report
+
+Parts of the submission affected
+---------------------------------
+The report text. All numerical results were produced by running my own notebook on
+the dataset; no results were fabricated. I have reviewed the submitted work, understand
+it, and am able to explain and reproduce it.
+
+Data handling
+-------------
+No medical images, DICOM files, patient data, credentials or other dataset files were
+uploaded to the AI tool. Only code, error messages, and my own computed metrics/figures
+were shared.
+
